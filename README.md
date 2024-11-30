@@ -1,5 +1,8 @@
 
 Attendance Management System
+
+
+
 This project automates attendance tracking and ensures no proxy entries using two main scripts:
 
 attendence.py: Tracks attendance based on facial recognition.
