@@ -24,18 +24,23 @@ face_recognition (if used for facial recognition)
 A webcam or external camera for real-time detection.
 How to Use
 Step 1: Install Dependencies
+
 Install the required Python libraries using pip:
 
 pip install opencv-python numpy pandas face_recognition
+
+
 Step 2: Run the Scripts
 Track Attendance: Run attendence.py to track attendance using facial recognition.
 
 python attendence.py
+
 The script will recognize registered faces and mark attendance.
 Attendance logs will be stored as a CSV or in a database.
 Verify Proxy Attendance: Run counting.py to monitor the number of individuals.
 
 python counting.py
+
 Compares the count of attendees with the attendance log.
 Flags potential proxies for further review.
 Output
